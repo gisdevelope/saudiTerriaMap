@@ -1,0 +1,19 @@
+{
+  "homeCamera": {
+    "north": 30.390489396093574,
+    "east": 62.986841147401385,
+    "south": 16.293443380030926,
+    "west": 28.72117778092538
+  },
+  "catalog": [
+    {
+      "name": "OPEN DATA datasets",
+      "type": "wfs-getCapabilities",
+      "url": "http://datagovsa.mapapps.cloud/geoserver/wfs",
+      "preserveOrder": true,
+      "isOpen": true,
+      "isEnabled": true,
+      "zoomOnEnable": true
+    }
+  ]
+}
