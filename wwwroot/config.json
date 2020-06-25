@@ -3,6 +3,7 @@
     "saudi"
   ],
   "parameters": {
+    "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyZDgxYmNlZS1hMjcyLTQ4MjMtYTk3Ny0yYTRjNzA3NzBhOWMiLCJpZCI6MzAwMjUsInNjb3BlcyI6WyJhc3IiLCJnYyJdLCJpYXQiOjE1OTI5OTkxNDF9.NZPLMC0Gwsfn6AFDhOzYcgPhkgOlDvuHP2BF4XywhKE",
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,
