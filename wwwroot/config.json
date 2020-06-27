@@ -14,7 +14,7 @@
     "appName": "KSA | Terria Map",
     "brandBarElements": [
       "",
-      "<a target=\"_blank\" href=\"http://datagovsa.mapapps.cloud\"><img src=\"images/datagovsa.png\" height=\"52\" title=\"KSA | Open Data\" /></a>",
+      "<a target=\"_blank\" href=\"http://datagovsa.mapapps.cloud\"><img src=\"images/datagovsa.png\" title=\"KSA | Open Data\" /></a>",
       ""
     ],
     "supportEmail": "help@example.com",
