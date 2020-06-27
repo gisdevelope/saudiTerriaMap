@@ -8,8 +8,8 @@
   "catalog": [
     {
       "name": "OPEN DATA datasets",
-      "type": "wfs-getCapabilities",
-      "url": "http://datagovsa.mapapps.cloud/geoserver/wfs",
+      "type": "wms-getCapabilities",
+      "url": "http://datagovsa.mapapps.cloud/geoserver/wms",
       "preserveOrder": true,
       "isOpen": true,
       "isEnabled": true,
