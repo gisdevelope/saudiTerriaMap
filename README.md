@@ -20,10 +20,26 @@ For more information about this platform, see the [documentation][3].
   ...
 }
 ```
-4. Navigate back to project directory and run: ```npm install && npm run gulp && npm start```.
-5. You should have the instance running at `http://localhost:3001`.
+4. Navigate to the directory `wwwroot/generateData` and create [virutal environment][5] by running:
+```bash
+virtualenv -p python3 env_name
+source env_name/bin/activate
+pip install -r requirements.txt
+```
+
+5. Fetch the latest layers from the API endpoint by running:
+```bash
+python generate.py
+```
+
+6. Navigate back to project main directory and run:
+```bash
+npm install && npm run gulp && npm start
+```
+7. You should have the instance running at `http://localhost:3001`.
 
 [1]: https://github.com/TerriaJS/TerriaMap
 [2]: https://github.com/TerriaJS/TerriaJS
 [3]: https://docs.terria.io/guide/
 [4]: https://cesium.com/
+[5]: https://docs.python.org/3.6/tutorial/venv.html
