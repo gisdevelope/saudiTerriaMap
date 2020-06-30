@@ -45,8 +45,6 @@ def getObjectKeys(object):
     newObject = {x: object[x] for x in keys}
     newObject["name"] = newObject.pop("title")
     newObject["type"] = "wms"
-    # newObject["isEnabled"] = True
-    # newObject["zoomOnEnable"] = True
     newObject["url"] = "http://datagovsa.mapapps.cloud/geoserver/ows"
     newObject["layers"] = "geonode_data:" + newObject.pop("typename")
     newObject["opacity"] = 0.9
