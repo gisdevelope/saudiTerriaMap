@@ -1,4 +1,4 @@
-import requests, json
+import requests, json, os
 
 # Fetch and return all layers objects
 def fetchData():
@@ -221,5 +221,8 @@ terriaCatalogConfig = {
     ]
 }
 
-with open('../init/saudiLayers.json', 'w') as outfile:
+script_dir = os.path.dirname(__file__).split('/generateData')[0]
+file_path = os.path.join(script_dir, 'init/saudiLayers.json')
+
+with open(file_path, 'w') as outfile:
     json.dump(terriaCatalogConfig, outfile)
