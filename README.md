@@ -69,7 +69,7 @@ crontab -e
 
 6. This will open a file in an editor, add the following line to update the data:
 ```bash
-0 0,12 * * * /data/datagovsa/saudiTerriaMap/wwwroot/generateData/genJSON/bin/python /data/datagovsa/saudiTerriaMap/wwwroot/generateData/generate.py
+0 0,12 * * * /fullPathToProject/saudiTerriaMap/wwwroot/generateData/genJSON/bin/python /fullPathToProject/saudiTerriaMap/wwwroot/generateData/generate.py
 ```
 
 **Note**: The previous step is done assuming that there's a created virtual environment which is mentioned in step 4 in the **Quick Start** section above.
