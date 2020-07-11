@@ -221,7 +221,7 @@ terriaCatalogConfig = {
     ]
 }
 
-script_dir = os.path.dirname(__file__).split('/generateData')[0]
+script_dir = os.path.dirname(os.path.abspath(__file__)).split('/generateData')[0]
 file_path = os.path.join(script_dir, 'init/saudiLayers.json')
 
 with open(file_path, 'w') as outfile:
