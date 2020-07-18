@@ -11,7 +11,7 @@ import React from "react";
 import SplitPoint from "terriajs/lib/ReactViews/SplitPoint";
 import StandardUserInterface from "terriajs/lib/ReactViews/StandardUserInterface/StandardUserInterface.jsx";
 import version from "../../version";
-import CovidChart from "./CovidChart";
+import CovidChartViewer from "./CovidChartViewer/CovidChartViewer";
 
 import "./global.scss";
 
@@ -35,7 +35,7 @@ export default function UserInterface(props) {
     <StandardUserInterface {...props} version={version}>
       <Menu>
         {/* <RelatedMaps viewState={props.viewState} /> */}
-        <CovidChart viewState={props.viewState} />
+        <CovidChartViewer viewState={props.viewState} />
         {/* <MenuItem caption="About" href="about.html" key="about-link" /> */}
       </Menu>
       <Nav>
